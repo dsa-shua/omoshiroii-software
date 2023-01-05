@@ -1,0 +1,42 @@
+A SIMPLE RANSOMWARE SOFTWARE USING BLUE SCREEN OF DEATH
+
+DISCLAIMER: This software is for intended for EDUCATIONAL PURPOSES ONLY and should not
+be used for any illegal activities. Doing such can cause harm and can potentially lead 
+to facing federal lawsuit. 
+
+ANY HARM MADE BY THIS SOFTWARE IS NOT THE RESPONSIBILITY OF THE AUTHOR AND SOLELY
+DEPENDS ON THE END USER.
+
+USE THIS ONLY ON TEST FILES AND NOT ON ACTUAL DOCUMENTS.
+
+
+Documentation:
+
+This simple ransomware program was written for educational purpose using Python. This
+piece of software heavily relies on tkinter and cryptography.fernets library. The
+encryption state is heavily inspired from NetworkChad's technique and the implementation
+for the UI is written by myself. 
+
+To encrypt documents on the same folder, run the python program on a test directory with
+at least 1 file in it. Then, a tkinter window will show up to alert the user about the
+ransomware attack. It will ask the user to send bitcoin to a bitcoin account (which is 
+a random string of characters through smashing of keyboard). Once the "transaction" has
+been completed, the user has enter the password which by default is just "admin".
+
+When the user types the key on the entry box and hits "Enter" key, the program should
+exit and decrypt all the files damaged by the malware.
+
+If, for some reason the user had closed the software, the user can still re-run the program
+and it will check if the key exists. DO NOT REMOVE THIS KEY. If it exists, the files
+were still encrypted and waits for the decryption key. The user can just enter the key and 
+the files would be decrypted naturally. After that, the key will be destroyed.
+
+As warned, DO NOT REMOVE THE KEY UNTIL ALL TEST FILES ARE DECRYPTED. 
+
+
+
+RE-STATEMENT OF DISCLAIMER:
+
+THIS PIECE OF CODE IS USED FOR EDUCATIONAL PURPOSES ONLY. DO NOT USE THIS ON OTHER PEOPLE
+OR ENTITIES WITHOUT THEIR PERMISSION. ANY DAMAGE CAUSED IS THE RESPONSIBILITY OF THE END
+USER. I, THE MAKER OF THIS CODE, HAS NO RESPONSIBILITY WHATSOEVER FOR THAT.
